@@ -1,0 +1,206 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@100;200;300;500&display=swap');
+
+body {
+    font-family: 'Poppins', sans-serif;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+}
+
+.container {
+    width: 940px;
+    padding: 60px;
+    border-radius: 10px;
+    box-shadow: rgba(0, 0, 0, 0.16) 0px 3px 6px, rgba(0, 0, 0, 0.23) 0px 3px 6px;
+}
+
+.container.user {
+    width: 1100px;
+}
+
+h1 {
+    margin-top: 0;
+    font-size: 28px;
+    background-color: #dd0000;
+    padding: 4px 10px;
+    color: white;
+    border-radius: 8px;
+    display: inline-block;
+    margin-right: 30px;
+}
+
+span.success {
+    padding: 8px 12px;
+    background-color: #b8e2e6;
+    color: #2d7478;
+    border-color: #d6e9c6;
+}
+
+hr {
+    margin-bottom: 30px;
+}
+
+form {
+    width: 100%;
+}
+
+form .gr_box {
+    display: flex;
+    width: 100%;
+    margin-bottom: 10px;
+}
+
+form .gr_box .box {
+    width: 30%;
+}
+
+
+form .gr_box .box:first-child {
+    flex-grow: 3;
+    width: 420px;
+}
+
+form .gr_box .box:first-child label {
+    display: inline-block;
+    width: 176px;
+}
+
+form .gr_box .box input {
+    padding: 6px 10px;
+    border-radius: 6px;
+    border: 0.5px solid #444444;
+    height: 20px;
+}
+
+form .gr_box .box:nth-child(2) {
+    flex-grow: 1;
+}
+
+form small.error {
+    color: #dd0000;
+}
+
+form .gr_box .box:nth-child(2) input, form .gr_box .box:nth-child(3) input {
+    margin-left: 20px;
+}
+
+form .gr_box .box:nth-child(3) {
+    flex-grow: 1;
+}
+
+form .gr_box .box:nth-child(3) input {
+    width: 114px;
+}
+
+form > .box.sgl, form .gr_box {
+    margin-bottom: 20px;
+}
+
+form .box .mg1 {
+    padding-left: 176px;
+}
+
+form .box .mg2 {
+    padding-left: 90px;
+}
+
+form .box .mg3 {
+    padding-left: 140px;
+}
+
+form > .box label {
+    display: inline-block;
+    width: 16%;
+}
+
+form .box small {
+    margin-left: 0 !important;
+}
+
+form > .box input[type=text] {
+    font-size: 16px;
+    width: 76%;
+    padding: 6px 10px;
+    border-radius: 6px;
+    border: 0.5px solid #444444;
+    height: 20px;
+}
+
+form > .box .left-site label {
+    width: 176px !important;
+}
+
+form > .box.img {
+    display: flex;
+}
+
+form > .box.img img {
+    width: 50px;
+    height: 50px;
+    margin-right: 4px;
+    border: 0.5px #888888 solid;
+}
+
+form small {
+    display: inline-block;
+    margin-left: 21%;
+    font-size: 14px;
+}
+
+form .btns {
+    padding: 12px;
+    text-align: right;
+}
+
+form .btns > input {
+    padding: 12px 42px;
+    font-size: 14px;
+    border-radius: 6px;
+    cursor: pointer;
+    outline: none;
+    border: none;
+    font-size: 16px;
+}
+
+form .btns > input.add {
+    margin-right: 10px;
+    background-color: #dd0000;
+    color: white;
+}
+
+form .btns > input.add:hover {
+    background-color: #ac0101;
+}
+
+form .btns > input.back {
+    background-color: rgb(204, 203, 203);
+    color: #172c45;
+    margin-right: 50px;
+}
+
+form .btns > input.back:hover {
+    background-color: rgb(163, 162, 162);
+}
+
+form .sgl-fake {
+    display: flex;
+    justify-content: space-between;
+    margin-bottom: 20px;
+}
+
+form .sgl-fake > div {
+    width: 46%;
+}
+
+form .sgl-fake label {
+    width: 35%;
+}
+
+form .sgl-fake input {
+    width: 57% !important;
+}
+
+form .sgl-fake .cate-box input {
+    width: 47% !important;
+}

@@ -1,0 +1,111 @@
+#wrapper_all {
+    padding: 0 40px;
+    overflow: hidden;
+}
+
+#nav_choose {
+    scroll-snap-type: mandatory;
+    overflow-x: scroll;
+    padding-bottom: 6px;
+}
+
+#nav_choose .above,
+#nav_choose .under {
+    display: flex;
+}
+
+#nav_choose .under {
+    margin-top: 6px;
+}
+
+#nav_choose .above li,
+#nav_choose .under li {
+    font-size: 14px;
+    font-weight: 700;
+    text-transform: uppercase;
+    padding: 7px 7.2px;
+    text-align: center;
+    color: #444;
+    border: 1px solid #e5e7eb;
+    background: transparent;
+    border-radius: 10px;
+    margin-right: 6px;
+    cursor: pointer;
+}
+
+#nav_choose .under li {
+    padding: 7px 48px;
+}
+
+.criteria_filter,
+.sort_filter {
+    margin-top: 10px;
+}
+
+.criteria_filter h3,
+.sort_filter h3 {
+    font-weight: 700;
+    font-size: 16px;
+    margin-bottom: 7px;
+}
+
+.criteria_filter i,
+.sort_filter i {
+    margin-right: 6px;
+}
+
+.criteria_filter>div,
+.sort_filter>div {
+    display: flex;
+}
+
+.criteria_filter .cr,
+.sort_filter .cr {
+    cursor: pointer;
+    height: 34px;
+    color: #444;
+    border: 1px solid #e5e7eb;
+    border-radius: 10px;
+    background: #f3f4f6;
+    padding: 5px 10px;
+    margin: 0 10px 10px 0;
+    font-size: 12px;
+    white-space: nowrap;
+    display: flex;
+    align-items: center;
+    white-space: nowrap;
+}
+
+.criteria_filter .cr:hover,
+.sort_filter .cr:hover,
+#nav_choose .above li:hover,
+#nav_choose .under li:hover {
+    border: 1px solid #de4f4a;
+    color: #de4f4a;
+}
+
+#wrapper_all .item_wrap {
+    margin-top: 10px;
+}
+
+#wrapper_all .see_more {
+    text-align: center;
+    margin-top: 46px;
+    margin-bottom: 16px;
+}
+
+#wrapper_all .see_more span {
+    color: #fff;
+    background: #ff0000;
+    border-radius: 15px;
+    font-size: 16px;
+    font-weight: 700;
+    text-transform: capitalize;
+    padding: 12px 120px;
+    cursor: pointer;
+    transition: 0.4s;
+}
+
+#wrapper_all .see_more span:hover {
+    color: #333;
+}

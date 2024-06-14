@@ -1,0 +1,144 @@
+:root {
+    --good-color: #3e9ddc;
+    --bad-color: red;
+}
+
+.two_form-wr {
+    display: flex;
+    justify-content: center;
+}
+
+.pad {
+    margin-top: 120px;
+}
+
+.two_form-wr .container {
+    padding: 30px 50px;
+    border-radius: 16px;
+    overflow: hidden;
+    box-shadow: rgba(60, 64, 67, 0.3) 0px 1px 2px 0px, rgba(60, 64, 67, 0.15) 0px 2px 6px 2px;
+    margin-bottom: 30px;
+}
+
+.two_form-wr .btn_change {
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    border-radius: 12px;
+    margin-bottom: 28px;
+}
+
+.two_form-wr .btn_change .btn {
+    /* padding: 10px 24px; */
+    width: 120px;
+    height: 40px;
+    border-radius: 22px;
+    border: none;
+    outline: none;
+    background-color: var(--main-color);
+    cursor: pointer;
+    font-weight: 600;
+    font-size: 16px;
+}
+
+.two_form-wr .btn_change .btn.active {
+    background-color: var(--header-color);
+    color: white;
+}
+
+.two_form-wr .form-cm {
+    display: none;
+}
+
+.two_form-wr .form-cm.active {
+    display: block;
+}
+
+.two_form-wr .form_regis {
+    margin-bottom: 10px;
+}
+
+.two_form-wr .form_field {
+    width: 430px;
+    margin-bottom: 0px;
+}
+
+.two_form-wr .form_field small {
+    display: inline-block;
+    margin-left: 34%;
+}
+
+.two_form-wr .form_field label {
+    display: inline-block;
+    width: 30%;
+}
+
+.two_form-wr .form_field input {
+    padding: 4px;
+    margin-left: 10px;
+    width: 65%;
+    font-size: 18px;
+    border: none;
+    border-bottom: 0.5px solid #333;
+    outline: none;
+}
+
+.two_form-wr .form_field input::placeholder {
+    font-size: 16px;
+}
+
+.two_form-wr .form_regis .regis-btn,
+.two_form-wr .form_regis .login-btn {
+    padding: 10px 26px;
+    background-color: var(--header-color);
+    color: white;
+    border: none;
+    border-radius: 4px;
+    cursor: pointer;
+    float: right;
+    margin: 10px 10px 0px 0px;
+    font-size: 18px;
+    transition: 0.2s;
+}
+
+.two_form-wr .form_regis .regis-btn:hover {
+    background-color: rgb(185, 23, 23);
+}
+
+.two_form-wr .form_regis .bttt {
+    clear: both;
+    margin-top: 50px;
+    margin-bottom: 0;
+    color: rgb(30, 173, 68);
+}
+
+.two_form-wr .form_regis .bttt span {
+    text-decoration: underline;
+    color: #0eaae8;
+    cursor: pointer;
+}
+
+.two_form-wr .form_regis small {
+    font-size: 14px;
+    margin-top: 6px;
+}
+
+.two_form-wr .container_log {
+    height: 285px;
+}
+
+.two_form-wr small.error {
+    color: red;
+}
+
+.two_form-wr input.error {
+    border-bottom: #e61111 solid 2px;
+}
+
+.two_form-wr input.success {
+    border-bottom: #1d65b2 solid 2px;
+}
+
+.placeHD::placeholder {
+    color: red;
+}
